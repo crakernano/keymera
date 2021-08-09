@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to keymera Page 
+:construction_worker_man: WORKING IN PROGRESS :construction_worker_woman:
+ 
+ ![Image](src)
+ 
+Keymera is a suit for ethical hacking. The purpose of this software is to detect vulnerabilities
 
-You can use the [editor on GitHub](https://github.com/crakernano/quimera/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Options
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can execute scans, exploits and other attack using this options:
 
-### Markdown
+1. Scanners
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+| command | help |
+| --- | --- |
+|`help`|Show all options|
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
+  1.2 Wordpress scanners
 
-1. Numbered
-2. List
+### Examples
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Legal Disclaimer
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+:warning: THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS “AS IS” AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/crakernano/quimera/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+:warning: Information provided on this blog are for educational purposes only. The site is no way responsible for any misuse of the information.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
