@@ -1,3 +1,5 @@
+[![Python application](https://github.com/crakernano/keymera/actions/workflows/python-app.yml/badge.svg)](https://github.com/crakernano/keymera/actions/workflows/python-app.yml)
+
 # Keymera
 
 ## Legal Disclaimer
