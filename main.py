@@ -40,13 +40,13 @@ def scan_ports(target):
     return ports
 
 
-def scan_subdomin():
+def scan_subdomin(target):
 
     if path.exists('Subdominios.txt'):
         wordlist = open('Subdominios.txt', 'r')
         wordlist = wordlist.read().split('\n')
         for subdominio in wordlist:
-            url = "http://" + subdominio + "." + parser.target
+            url = "http://" + subdominio + "." + target
             try:
                 requests.get(url)
             except requests.ConnectionError:
@@ -55,7 +55,7 @@ def scan_subdomin():
                 print("- Subdominio descubierto " + url)
 
             for subdominio in wordlist:
-                url = "https://" + subdominio + "." + parser.target
+                url = "https://" + subdominio + "." + target
                 try:
                     requests.get(url)
                 except requests.ConnectionError:
