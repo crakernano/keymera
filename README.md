@@ -1,4 +1,5 @@
 [![Python application](https://github.com/crakernano/keymera/actions/workflows/python-app.yml/badge.svg)](https://github.com/crakernano/keymera/actions/workflows/python-app.yml)
+[![Semantic Release](https://github.com/crakernano/keymera/actions/workflows/main.yml/badge.svg)](https://github.com/crakernano/keymera/actions/workflows/main.yml)
 
 # Keymera
 
