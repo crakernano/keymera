@@ -67,7 +67,7 @@ def scan_subdomin():
 
 
 def scan_tecnology(target):
-    subprocess.run("wad -u" + parser.target + "> tecnologias.txt", shell=True)
+    subprocess.run("wad -u" + target + "> tecnologias.txt", shell=True)
     # parseado del resultado
     file = open("tecnologias.txt", "r")
     tecnologias = file.read()
