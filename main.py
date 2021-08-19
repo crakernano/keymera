@@ -6,6 +6,7 @@ from os import path
 import sys
 import json
 from bs4 import BeautifulSoup
+from scanNmap import nmap_fill_scan
 
 
 def scanHeaders(target):
@@ -15,8 +16,8 @@ def scanHeaders(target):
 
         for cabecera in cabeceras:
             print(cabecera + " : " + cabeceras[cabecera])
-    except:
-        print("No se pudo establecer la cabecera")
+    except requests.exceptions.RequestException as e:
+        print("No se pudo establecer la cabecera: " + str(e))
 
 
 def banner(ip, port):
@@ -86,7 +87,8 @@ def scan_tecnology(target):
 def scan_users(target):
     usuarios = []
     cabecera = {'Usert-Agent': 'Firefox'}
-    peticion = requests.get(url=target + "/wp-json/wp/v2/users", headers=cabecera)
+    peticion = requests.get(url=target + "/wp-json/wp/v2/users",
+                            headers=cabecera)
 
     binary = peticion.text
     output = json.loads(binary)
@@ -107,6 +109,7 @@ def scan_worpress(target):
         print(v.get('name'))
         if v.get('name') == 'generator':
             version = v.get('content')
+    return version
 
 
 def main():
@@ -149,6 +152,10 @@ def main():
                         action="store_true",
                         help="increase output verbosity")
 
+    parser.add_argument("-sn", "--scan_network",
+                        action="store_true",
+                        help="increase output verbosity")
+
     args = parser.parse_args()
 
     if args.verbosity:
@@ -174,6 +181,9 @@ def main():
 
     if args.scan_worpress:
         scan_worpress(args.target)
+
+    if args.scan_network:
+        nmap_fill_scan(args.target)
 
 
 if __name__ == '__main__':
