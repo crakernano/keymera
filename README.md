@@ -1,11 +1,7 @@
 [![Python application](https://github.com/crakernano/keymera/actions/workflows/python-app.yml/badge.svg)](https://github.com/crakernano/keymera/actions/workflows/python-app.yml)
-
 [![Semantic Release](https://github.com/crakernano/keymera/actions/workflows/main.yml/badge.svg)](https://github.com/crakernano/keymera/actions/workflows/main.yml)
-
 ![version](https://img.shields.io/github/v/tag/crakernano/keymera?sort=date)
-
 ![made with](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
-
 
 
 # Keymera
