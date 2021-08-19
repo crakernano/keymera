@@ -1,6 +1,37 @@
 [![Python application](https://github.com/crakernano/keymera/actions/workflows/python-app.yml/badge.svg)](https://github.com/crakernano/keymera/actions/workflows/python-app.yml)
 
+[![Semantic Release](https://github.com/crakernano/keymera/actions/workflows/main.yml/badge.svg)](https://github.com/crakernano/keymera/actions/workflows/main.yml)
+
+![version](https://img.shields.io/github/v/tag/crakernano/keymera?sort=date)
+
+![made with](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
+
+
+
 # Keymera
+
+## Who is Keymera
+
+Keymera is a micro-suite for ethical hacking and pentesting.
+
+## Features
+
+- Scan a network (host, ports, SO...)
+- Scan users
+- Scan tecnologys
+- Scan subdomains
+- Scan headers
+- Scan banners
+
+Read more detailed installations instructions in the [Documentation](https://crakernano.github.io/keymera/)
+
+## Next Features
+
+- [ ] CMS advance scan (themes, plugins, users...)
+- [ ] Insecure password scan
+- [ ] Auto-find sploit
+- [ ] Tips for bastioned
+
 
 ## Legal Disclaimer
 
